@@ -46,7 +46,7 @@ body{
     justify-content: space-around;
 }
 img{
-    border-radius: none;
+    border-radius: 15px;
 }
 
 .container2{
