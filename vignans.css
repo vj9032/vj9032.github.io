@@ -45,9 +45,6 @@ body{
     display: flex;
     justify-content: space-around;
 }
-img{
-    border-radius: 15px;
-}
 
 .container2{
     background-color: rgba(42, 42, 42, 0.199);
