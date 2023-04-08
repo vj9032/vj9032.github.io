@@ -23,7 +23,7 @@ body{
 .navi{
     background-color: rgb(8, 56, 127);
     height: 50px;
-    width: 100%;
+    width: -webkit-fill-available;
     position: relative;
 }
 
@@ -60,9 +60,7 @@ h1{
     background-color: rgb(168, 179, 188);
 
 }
-.ima{
-    margin-left: 300px;
-}
+
 a{
     text-decoration: none;
     color: aliceblue;
@@ -85,4 +83,3 @@ em{
 form{
     position: absolute;
 }
-
