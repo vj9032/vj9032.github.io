@@ -2,7 +2,7 @@ body{
     width: 100% 100%;
     background-color: rgb(255,255,255);
     border: 100% 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 #logo{
     overflow-x: hidden;
@@ -29,17 +29,21 @@ body{
 
 .items{
     display: flex;
-    padding-top: 15px;
+    /* padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 0px; */
+    padding: 11.5px;
 
+    transition: 0.5s;
+    transition-delay: 0s;
     
     
   
 }
 .items:hover{
     background-color:#007bff;
-    transition-duration: 0.5s;
+    font-size: x-large;
 }
 .navi{
     display: flex;
@@ -72,9 +76,11 @@ em{
 }
 .links{
     color: black;
+    transition: 0.2s ease-in;
 }
 .links:hover{
-    background-color: rgb(104, 237, 222);
+    color: #007bff;
+    font-size: x-large;
 }
 .vidv{
     position:relative;
@@ -82,4 +88,13 @@ em{
 }
 form{
     position: absolute;
+}
+.slider{  
+    display: flex;
+    overflow-x: hidden;
+    width: -webkit-fill-available;
+}
+marquee{
+    color:rgb(8, 56, 127);
+    font-size: 40px;
 }
