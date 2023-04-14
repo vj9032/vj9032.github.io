@@ -70,8 +70,7 @@ a{
     color: aliceblue;
 }
 em{
-    position: relative;
-    left: 30%;
+   
     
 }
 .links{
@@ -97,4 +96,20 @@ form{
 marquee{
     color:rgb(8, 56, 127);
     font-size: 40px;
+}
+
+@keyframes col {
+    from{
+        color: currentColor;
+    }
+    to{
+        color: red;
+    }
+    
+}
+
+h2{
+    animation: col 0.5s infinite;
+    font-size: xx-large;
+
 }
